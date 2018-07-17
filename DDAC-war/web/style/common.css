@@ -1,0 +1,23 @@
+.input-style input[type=email], input[type=text], input[type=password], input[type=submit], input[type=tel] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+select {
+    margin-left: 15px;
+    width: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+input[type=submit]:hover {
+    background: lightgray !important;
+}

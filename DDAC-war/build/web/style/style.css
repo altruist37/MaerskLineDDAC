@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form {
+    margin: 0px auto;
+    width: 260px;
+    padding-top: 18%;
+    position: static;
+}
+
+.About-panel {
+    margin: 0 !important;
+    display: block;
+    background-color: #999999;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.contact-panel {
+    background-color: #d7d8da !important;
+}
+
+.footer {
+    display: block;
+    background-color: #333;
+    height: 20vh;
+    width: 100%;
+    color: white !important;
+}
+
+.indexText {
+    color: black;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+
+}
+
+#table {
+    border-collapse: collapse;
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+
+#table th, td {
+    padding: 8px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+#table th {
+    text-align: left;
+    background-color: indianred;
+}
+
+#table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#table tr:hover {
+    background-color: darkseagreen;
+}
